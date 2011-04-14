@@ -1,0 +1,18 @@
+This is just clojure project for self-learning
+
+As my plan, This project will include two kinds of process.
+One is the Server, another is the client.
+Client have to register the name on the Server and then can get name list as other running client from Server.
+After that the Client can start conversation between others.
+
+Server should handle the request from Client and dispatch the conversation between Client servers.
+
+
+Here are the points I need to think over:
+1.multi-process on Server side to process concurrent request from Client
+2. How many process needed for Client, Maybe one just running to accept response from Client, one to send the request and one to interact with user.
+
+
+These are my plan , and I think the development will be after schedule sometimes but I will try my best to be not.
+
+
